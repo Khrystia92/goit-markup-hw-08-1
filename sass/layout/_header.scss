@@ -1,0 +1,119 @@
+.logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 85px;
+    font-family:Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:#000000;
+    }
+    .web {
+        color: $aksent-color;
+    }
+    .header {
+    border: 1px solid #ECECEC;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;}
+    }
+
+    .header-address {
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    } 
+    .header-mailto {
+        margin-right: 50px;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+    .navigation-list {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    .navigation-link {
+    padding-top: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        color: $aksent-color;}
+    }
+
+    .navigation-list-item:not(:last-child) {
+        margin-right: 50px;
+    }
+    .navigation-link,.header-mailto,.header-tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;  
+        color: $title-light-theme-color;
+    }
+      .menu {
+        color: $aksent-color;
+    &::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+    margin-top: 28px;
+    }
+}
+    .header-address {
+        margin: 0px;
+    .header-address-list{
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    }
+    .header-address-list-svg {
+        margin-right: 10px;
+        fill: #757575;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+    .header-mailto {
+    margin-right: 30px;
+    color: $main-text-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        color: $aksent-color;
+    }
+}
+
+    .header-tel {
+    color: $main-text-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    color: $aksent-color;
+    }
+}
+    .header-mailto:hover .header-address-list-svg,
+    .header-mailto:focus .header-address-list-svg{
+        fill: $aksent-color;
+    }
+ 
+    .header-tel:hover .header-address-list-svg,
+    .header-tel:focus .header-address-list-svg{
+        fill: $aksent-color;
+    }
