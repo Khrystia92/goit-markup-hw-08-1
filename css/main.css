@@ -358,6 +358,7 @@ h3 {
 .header {
   position: relative;
   border: 1px solid #ECECEC;
+  z-index: 100;
 }
 
 .header .container {
@@ -376,6 +377,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #000000;
+  z-index: 100;
 }
 
 .web {
@@ -389,6 +391,8 @@ h3 {
   height: 453px;
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .header-button {
@@ -414,43 +418,34 @@ h3 {
 }
 
 .navigation-link:hover, .navigation-link:focus {
+  color: #2196F3;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: #2196F3;
 }
 
-.header-address {
+.navigation-list-item, .header-address-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.header-mailto {
-  margin-right: 50px;
-}
-
-.navigation {
-  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.navigation-list {
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .navigation-list-item:not(:last-child) {
-  margin-right: 50px;
+  margin-bottom: 40px;
 }
 
-.navigation-link, .header-mailto, .header-tel {
+.header-address {
+  margin-top: 60px;
+}
+
+.header-mailto, .header-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 18px;
+  line-height: 21px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 
 .menu {
@@ -460,65 +455,55 @@ h3 {
 .menu::after {
   display: block;
   content: "";
-  width: 100%;
+  width: 61px;
   height: 4px;
   background: #2196F3;
   border-radius: 2px;
-  margin-top: 28px;
-}
-
-.header-address {
-  margin: 0px;
-}
-
-.header-address .header-address-list {
-  display: flex;
-  align-items: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin-top: 8px;
 }
 
 .header-address-list-svg {
   margin-right: 10px;
   fill: #757575;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mailto {
-  margin-right: 30px;
+  margin-bottom: 16px;
   color: #757575;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mailto:hover, .header-mailto:focus {
   color: #2196F3;
-}
-
-.header-tel {
-  color: #757575;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-tel {
+  color: #757575;
+}
+
 .header-tel:hover, .header-tel:focus {
   color: #2196F3;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mailto:hover .header-address-list-svg,
 .header-mailto:focus .header-address-list-svg {
   fill: #2196F3;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-tel:hover .header-address-list-svg,
 .header-tel:focus .header-address-list-svg {
   fill: #2196F3;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
