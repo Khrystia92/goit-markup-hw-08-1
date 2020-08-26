@@ -57,14 +57,22 @@ transition-duration: 250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 color: $aksent-color;}
 }
-.navigation-list-item {
+.navigation-list-item, .header-address-list {
 display: flex;
 flex-direction: column;
 }
 .navigation-list-item:not(:last-child) {
     margin-bottom: 40px;
 }
-
+.header-mailto, .header-tel {
+font-family: $main-font;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.02em;
+color: $main-text-color;
+}
 
 
 /*.header-address {
@@ -84,11 +92,7 @@ flex-direction: column;
     margin-top: 0px;
     margin-bottom: 0px;
     }
-    
-    
-   .navigation-list-item:not(:last-child) {
-        margin-right: 40px;
-    }
+   
     .navigation-link,.header-mailto,.header-tel {
         font-weight: 500;
         font-size: 14px;
