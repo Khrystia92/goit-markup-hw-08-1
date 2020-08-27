@@ -1,0 +1,16 @@
+.doing-list-box {
+  position: relative;
+  }
+@media screen and (max-width: 1199px) {
+    .our-work {
+        display: none;
+    }
+}
+@media screen and (min-width:1200px) {
+  .doing-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;  
+  }
+}
