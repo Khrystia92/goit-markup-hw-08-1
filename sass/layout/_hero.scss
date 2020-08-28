@@ -1,14 +1,7 @@
     
-   /* .hero-title {
+    .hero-title {
     margin-top: 0px;
     margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 26px;
-    line-height:1.61;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $title-dark-theme-color;
     }
     .modal-button {
     display: flex;
@@ -16,11 +9,6 @@
     padding: 10px 32px;
     min-width: 200px;
     height: 50px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
     background-color: $aksent-color;
     color: $title-dark-theme-color;
     border-radius: 4px;
@@ -86,8 +74,6 @@
             ), url("../../images/desk-header@2x.jpg");
             }
             .hero-title {
-                margin-top: 0px;
-                margin-bottom: 30px;
                 font-weight: 900;
                 font-size: 44px;
                 line-height:1.36;
