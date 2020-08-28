@@ -14,8 +14,9 @@ color:#000000;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: $title-light-theme-color;}
-    .header-mailto, .header-tel {
+    color: $title-light-theme-color;
+}
+.header-mailto, .header-tel {
         font-family: $main-font;
         font-style: normal;
         font-weight: 500;
@@ -24,7 +25,7 @@ color:#000000;
         letter-spacing: 0.02em;
         color: $main-text-color;
         }
-        .hero-title {
+.hero-title {
             font-weight: 900;
             font-size: 26px;
             line-height:1.61;
@@ -33,37 +34,52 @@ color:#000000;
             text-transform: uppercase;
             color: $title-dark-theme-color;
             }
-            .modal-button {
+.modal-button {
                 font-weight: bold;
                 font-size: 16px;
                 line-height: 1.88;
                 text-align: center;
                 letter-spacing: 0.06em;
             }
-            .subtitle{
-                margin-top: 0;
-                margin-bottom: 10px;
-                text-align: center;
+.subtitle{
+              text-align: center;
             }
-            .description {
-                margin: 0;
+.description {
                 font-weight: 400;
                 line-height: 1.7;
-                margin-bottom: 30px;}
-                .subtitle, .subtitle-box, .footer-subtitle {
-                    font-weight: bold;
-                    font-size: 14px;
-                    line-height: 1.14;
-                    letter-spacing: 0.03em;
-                    text-transform: uppercase;
-                    color: $title-light-theme-color
-                    }
-                .section-subtitle {
-                    font-weight: bold;
-                    font-size: 36px;
-                    line-height: 1.16;
-                    text-align: center;
-                    letter-spacing: 0.03em;
-                    color: $title-light-theme-color;
-                    }   
-                   
+}
+.subtitle, .subtitle-box, .footer-subtitle {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: $title-light-theme-color
+}
+.section-subtitle {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: $title-light-theme-color;
+}   
+.subtitle-name {
+    $main-font:Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-light-theme-color;
+    }
+    .subtitle-position {
+        font-style: normal;
+        font-weight: normal;
+        color: $main-text-color;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        }       

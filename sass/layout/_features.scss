@@ -1,13 +1,3 @@
-/*.our-features {
-    padding-bottom: 0px;
-}
-.special {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    }*/
 .special-item-img {
 display: flex;
 justify-content: center;
@@ -27,7 +17,8 @@ background: #F5F4FA;
 
 @media screen and (max-width:767px) {
 .special {
-    margin: 0;
+    margin: 0px;
+    padding-left: 0px;
 }
    .special-item-img {
     padding-top: 25px;
