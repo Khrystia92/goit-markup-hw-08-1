@@ -2,12 +2,12 @@
   padding-left: 15px;
   padding-right: 15px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    margin: 0 auto;
   }
 }
 
@@ -733,25 +733,25 @@ h3 {
   align-items: center;
   margin: 0px;
   margin-bottom: 30px;
-  width: 70px;
   height: 70px;
-  padding-left: 100px;
-  padding-right: 100px;
   padding-top: 25px;
   padding-bottom: 25px;
   background: #F5F4FA;
 }
 
+.special {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.description {
+  margin-top: 0px;
+}
+
 @media screen and (max-width: 767px) {
-  .special {
-    margin: 0px;
-    padding-left: 0px;
-  }
-  .special-item-img {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background: #F5F4FA;
-    height: 120px;
+  .speciality {
+    width: 100%;
+    margin-right: 0px;
   }
 }
 
@@ -760,29 +760,20 @@ h3 {
     display: flex;
     flex-wrap: wrap;
   }
-  .speciality .features {
+  .special-item-img {
     width: calc((100%-30px)/2);
   }
-  .speciality .features:not(:nth-child(2n + 2)) {
+  .special-item-img:not(:nth-child(2n + 2)) {
     margin-right: 30px;
-  }
-  .special-item-img {
-    padding: 25px 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .special {
-    padding: 94px 0;
-  }
-  .speciality .features {
+  .special-item-img {
     max-width: 270px;
   }
-  .speciality .features:not(:last-child) {
+  .special-item-img:not(:last-child) {
     margin-right: 30px;
-  }
-  .speciality .features .special-item-img {
-    padding: 25px 0;
   }
 }
 
@@ -862,13 +853,17 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-  .team-item img {
+  .our-team-img {
     width: 354px;
     height: 260px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .our-team {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .team-item {
     width: calc((100%-30px) / 2);
   }

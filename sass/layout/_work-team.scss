@@ -67,14 +67,18 @@
 }
 
 @media screen and (min-width: 768px) {
-.team-item img {
+.our-team-img {
     width: 354px;
     height: 260px;
 }
 }
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
-.team-item {
+    .our-team {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .team-item {
     width: calc((100%-30px) / 2);
 &:not(:nth-child(2n + 2)) {
     margin-right: 30px;
