@@ -1,85 +1,89 @@
 .logo {
-font-family:Raleway, sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color:#000000;
-}
-.navigation-link {
-    font-family: $main-font;
+    font-family:Raleway, sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 24px;
     line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: $title-light-theme-color;
-}
-.header-mailto, .header-tel {
+    letter-spacing: 0.03em;
+    color:#000000;
+    }
+    .navigation-link {
         font-family: $main-font;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.02em;
-        color: $main-text-color;
-        }
-.hero-title {
-            font-weight: 900;
-            font-size: 26px;
-            line-height:1.61;
-            text-align: center;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            color: $title-dark-theme-color;
+        color: $title-light-theme-color;
+    }
+    .header-mailto, .header-tel {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            color: $main-text-color;
             }
-.modal-button {
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 1.88;
+    .hero-title {font-family: $main-font;
+                font-weight: 900;
+                font-size: 26px;
+                line-height:1.61;
                 text-align: center;
                 letter-spacing: 0.06em;
-            }
-.subtitle{
-              text-align: center;
-            }
-.description {
-                font-weight: 400;
-                line-height: 1.7;
-}
-.subtitle, .subtitle-box, .footer-subtitle {
+                text-transform: uppercase;
+                color: $title-dark-theme-color;
+                }
+    .modal-button {font-family: $main-font;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 1.88;
+                    text-align: center;
+                    letter-spacing: 0.06em;
+                }
+    .subtitle{
+                  text-align: center;
+                }
+    .description {font-family: $main-font;
+                    font-weight: 400;
+                    line-height: 1.7;
+    }
+    .subtitle, .subtitle-box, .footer-subtitle {
+        font-family: $main-font;
+        font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-light-theme-color
+    }
+    .section-subtitle {
+font-family: $main-font;
+font-style: normal;
 font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: $title-light-theme-color
-}
-.section-subtitle {
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
+font-size: 28px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: $title-light-theme-color;
 }   
-.subtitle-name {
-    $main-font:Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $title-light-theme-color;
-    }
-    .subtitle-position {
+    .subtitle-name {
+        font-family: $main-font;
         font-style: normal;
-        font-weight: normal;
-        color: $main-text-color;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
-        }       
+        color: $title-light-theme-color;
+        }
+        .subtitle-position {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: normal;
+            color: $main-text-color;
+            font-size: 16px;
+            line-height: 1.19;
+            text-align: center;
+            letter-spacing: 0.03em;
+            }       
