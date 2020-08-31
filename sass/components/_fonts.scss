@@ -173,3 +173,34 @@ line-height: 1.17;
 letter-spacing: 0.02em;
 }
     }
+
+
+/*Portfolio*/
+
+.button {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+.subtitle-portfolio {
+    margin-bottom: 4px;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: $title-light-theme-color;
+}
+.description, .description-portfolio {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:$main-text-color;
+}
+.text-portfolio {
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: $title-dark-theme-color;
+    }

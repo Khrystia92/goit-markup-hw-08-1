@@ -90,6 +90,15 @@ and (max-width: 1199px) {
     display: flex;
     padding-left: 0px;
 }
+.team-item {
+    width: 270px;
+    height: 422px;
+}
+.our-team-img {
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+}
 .team-item:not(:last-child) {
     margin-right: 30px;
       }
