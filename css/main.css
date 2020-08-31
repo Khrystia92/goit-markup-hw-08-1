@@ -726,6 +726,7 @@ h3 {
   }
   .header-address-list:not(:last-child) {
     margin-bottom: 0px;
+    margin-right: 30px;
   }
   .header-mailto, .header-tel {
     font-size: 14px;
@@ -824,10 +825,10 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-  .special .features {
+  .features {
     width: 100%;
   }
-  .special .features:not(:last-child) {
+  .features:not(:last-child) {
     margin-bottom: 30px;
   }
   .speciality-features-list {
@@ -840,20 +841,19 @@ h3 {
     display: flex;
     flex-wrap: wrap;
   }
-  .speciality .features {
+  .features {
     width: calc((100%-30px) / 2);
   }
-  .speciality .features:nth-child(2n + 1) {
+  .features:nth-child(2n + 1) {
     margin-right: 30px;
   }
   .speciality-features-list {
-    width: 354px;
     margin-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 1199px) {
-  .speciality .features:nth-child(4n) {
+  features:nth-child(4n) {
     margin-bottom: 0;
   }
 }
@@ -868,25 +868,23 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
-  .features-list {
+  .special {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  .features-list-item {
-    width: 270px;
-  }
-  .features-list-item-link {
+  .speciality-features-list {
     display: flex;
   }
-  .features-list-item:not(:last-child) {
+  .features {
+    width: 270px;
+    margin-bottom: 30px;
+  }
+  .features:not(:last-child) {
     margin-right: 30px;
   }
-  .features-list-item:nth-child(4n) {
+  .features:nth-child(4n) {
     margin-right: 0;
-  }
-  .features-list-item {
-    margin-bottom: 30px;
   }
 }
 
@@ -905,6 +903,7 @@ h3 {
   }
   .doing-list-box {
     position: relative;
+    margin-right: 30px;
   }
   .subtitle-box {
     position: absolute;
