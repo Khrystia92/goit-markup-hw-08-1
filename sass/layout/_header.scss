@@ -24,7 +24,6 @@ width: 61px;
 height: 4px;
 background: #2196F3;
 border-radius: 2px;
-margin-top: 8px;
 }
 }
 .header-address-list-svg {
@@ -124,6 +123,9 @@ align-items: center;
 .header-address{
     margin-top: 60px;
 }
+.menu::after {
+    margin-top: 8px;
+}
 }
 @media screen and (min-width: 768px) {
    .header .container {
@@ -132,24 +134,36 @@ align-items: center;
    }
     .menu-wrapper {
     display: flex;
-      align-items: center;
+    align-items: center;
            }
   .header-button {
       display: none;
     }
-    .menu::after {
-      margin-top: 28px;
+    .menu {
+        margin-top: 32px;
     }
-    .header-list-item:not(:last-child) {
+    .menu::after {
+     margin-top: 28px;
+    }
+    .header-address {
+        padding-left: 0px;
+    }
+    .header-address-list:not(:last-child) {
       margin-bottom: 10px;
     }
-    .navigation-list {
+    .header-mailto {
+        margin: 0;
+    }
+   .navigation-list {
         display: flex;
-        flex-direction: row;
+       padding-left: 0px;
         align-items: center;
         justify-content: center;
-           }
-        .navigation-link:not(:last-child) {
+        margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 84px;
+    }
+       .navigation-list-item:not(:last-child) {
             margin-right: 50px;
         }
   }

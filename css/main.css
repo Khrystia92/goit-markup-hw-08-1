@@ -541,7 +541,6 @@ h3 {
   height: 4px;
   background: #2196F3;
   border-radius: 2px;
-  margin-top: 8px;
 }
 
 .header-address-list-svg {
@@ -642,6 +641,9 @@ h3 {
   .header-address {
     margin-top: 60px;
   }
+  .menu::after {
+    margin-top: 8px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -656,19 +658,31 @@ h3 {
   .header-button {
     display: none;
   }
+  .menu {
+    margin-top: 32px;
+  }
   .menu::after {
     margin-top: 28px;
   }
-  .header-list-item:not(:last-child) {
+  .header-address {
+    padding-left: 0px;
+  }
+  .header-address-list:not(:last-child) {
     margin-bottom: 10px;
+  }
+  .header-mailto {
+    margin: 0;
   }
   .navigation-list {
     display: flex;
-    flex-direction: row;
+    padding-left: 0px;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 84px;
   }
-  .navigation-link:not(:last-child) {
+  .navigation-list-item:not(:last-child) {
     margin-right: 50px;
   }
 }
