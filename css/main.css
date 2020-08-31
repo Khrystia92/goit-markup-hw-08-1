@@ -636,6 +636,7 @@ h3 {
     border: none;
     padding: 0px;
     z-index: 100;
+    outline: none;
   }
   .header-button.is-open .icon-close {
     display: block;
@@ -659,6 +660,7 @@ h3 {
     transition: transform 500ms linear;
   }
   .menu-wrapper.is-open {
+    z-index: 100;
     transform: translateY(0);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
