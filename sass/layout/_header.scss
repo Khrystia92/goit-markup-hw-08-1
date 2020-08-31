@@ -1,12 +1,8 @@
 .header {
-position: relative;
-border: 1px solid #ECECEC;
+line-height: normal;
+border-bottom: 1px solid #ECECEC;
 }
-.header .container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
+
 .logo {
 padding-top: 16px;
 padding-bottom: 16px;
@@ -72,10 +68,15 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 @media screen and (max-width:767px)
 {
 .header {
+    position: relative;
     max-width: 480px;
     margin: 0 auto;
 }
-}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
 .header-button {
     position: relative;
     background-color: transparent;
@@ -123,7 +124,37 @@ align-items: center;
 .header-address{
     margin-top: 60px;
 }
+}
 @media screen and (min-width: 768px) {
+   .header .container {
+    display: flex;
+    align-items: center;
+   }
+    .menu-wrapper {
+    display: flex;
+      align-items: center;
+           }
+  .header-button {
+      display: none;
+    }
+    .menu::after {
+      margin-top: 28px;
+    }
+    .header-list-item:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    .navigation-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+           }
+        .navigation-link:not(:last-child) {
+            margin-right: 50px;
+        }
+  }
+  
+ /*@media screen and (min-width: 768px) {
     .header-button {
         display: none;
     }
@@ -146,4 +177,55 @@ align-items: center;
         font-size: 14px;
         line-height: 1.14;
     }
-}    
+}  */  
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .contacts-list {
+      margin-bottom: 10px;
+    }
+  
+    .contacts .link {
+      font-size: 12px;
+    }
+    .mail-smartphone-icon {
+      text-align: center;
+      margin-right: 8px;
+    }
+    .header .container {
+      justify-content: space-between;
+    }
+  }
+
+@media screen and (min-width: 1200px) {
+    .header {
+      display: flex;
+    }
+  
+    .menu {
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .contacts-list {
+      display: flex;
+    }
+  
+    .contacts-list-item:not(:last-child) {
+      margin-right: 30px;
+    }
+    .contacts-list &.link {
+      font-size: 14px;
+      line-height: 1.17;
+    }
+  
+    .logo {
+      margin-right: 85px;
+      font-size: 26px;
+      line-height: 1.2;
+    }
+  
+    .mail-smartphone-icon {
+      text-align: center;
+      margin-right: 10px;
+    }
+  }
