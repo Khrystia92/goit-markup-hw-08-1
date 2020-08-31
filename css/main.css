@@ -687,43 +687,19 @@ h3 {
   }
 }
 
-/*@media screen and (min-width: 768px) {
-    .header-button {
-        display: none;
-    }
-    .menu-wrapper {
-        z-index: 100;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .logo {
-        margin-right:81px;
-    }
-    .navigation-list {
-        display: flex;
-    }
-    .navigation-link {
-        display: block;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        font-size: 14px;
-        line-height: 1.14;
-    }
-}  */
 @media screen and (max-width: 1199px) and (min-width: 768px) {
-  .contacts-list {
-    margin-bottom: 10px;
-  }
-  .contacts .link {
-    font-size: 12px;
-  }
-  .mail-smartphone-icon {
-    text-align: center;
-    margin-right: 8px;
-  }
   .header .container {
     justify-content: space-between;
+  }
+  .header-address {
+    margin-bottom: 10px;
+  }
+  .header-mailto, .header-tel {
+    font-size: 12px;
+  }
+  .header-address-list-svg {
+    text-align: center;
+    margin-right: 8px;
   }
 }
 
@@ -731,26 +707,31 @@ h3 {
   .header {
     display: flex;
   }
-  .menu {
-    align-items: center;
-    justify-content: space-between;
-  }
-  .contacts-list {
-    display: flex;
-  }
-  .contacts-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  .contacts-list .link {
-    font-size: 14px;
-    line-height: 1.17;
-  }
   .logo {
     margin-right: 85px;
     font-size: 26px;
     line-height: 1.2;
   }
-  .mail-smartphone-icon {
+  .menu-wrapper {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation-list {
+    margin-right: 0px;
+  }
+  .header-address {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+  }
+  .header-address-list:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .header-mailto, .header-tel {
+    font-size: 14px;
+    line-height: 1.17;
+  }
+  .header-address-list-svg {
     text-align: center;
     margin-right: 10px;
   }
