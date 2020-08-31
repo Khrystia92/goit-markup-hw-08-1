@@ -1,41 +1,29 @@
 .footer {
     background: #2F303A;   
 }
-.footer-logo {
-    padding-top: 60px;
-    
-}
 .logotype {
 margin-bottom: 20px;
 color: $title-dark-theme-color;
 }
-
 .address {
-margin-bottom: 9px;
-}
-.footer-mailto{
-margin-bottom: 9px;
-&:hover,
-&:focus {
-color: $aksent-color;
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
-}
-
-.footer-tel:hover, .footer-tel:focus {
-color: $aksent-color;
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-subtitle {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 20px;
-}
+  margin-bottom: 9px;
+  }
+  .footer-mailto{
+  margin-bottom: 9px;
+  &:hover,
+  &:focus {
+  color: $aksent-color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  }
+    .footer-tel:hover, .footer-tel:focus {
+  color: $aksent-color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
 .footer-icons {
     display: flex;
     justify-content: center;
@@ -44,30 +32,30 @@ margin-bottom: 20px;
     margin-bottom: 0px;
         }
 .footer-icons-label:not(:last-child) {
-margin-right: 10px;
-}
- .footer-icon-list  {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 44px;
-height: 44px;
-border-radius: 50%;
-display: flex;
-background-color: rgba(255, 255, 255, 0.1);
-transition-property: background-color;
-transition-duration: 250ms;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-&:hover,
-&:focus{
-    background-color: $aksent-color;
-    }
-}
-.footer-icon-list-svg {
+ margin-right: 10px;
+  }
+  .footer-icon-list  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.1);
+   transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus{
+   background-color: $aksent-color;
+     }
+  }
+  .footer-icon-list-svg {
     width: 20px;
-    height: 20px;
-}
-.footer-form-field {
+   height: 20px;
+  }
+  .footer-form-field {
     margin-bottom: 20px;
     padding-top: 15px;
     width: 434px;
@@ -100,30 +88,47 @@ border: $aksent-color;
     height: 20px;
     fill: $title-dark-theme-color;
 }
-
+.footer-logo {
+    padding-top: 60px;
+}
+@media screen and (max-width: 767px) {
+.footer-subtitle {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.footer-form-field {
+      width: 100%;
+    }
+  }
 @media screen and (max-width: 1199px) {
-    .footer-logo {
+  .footer .container {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }  
+  .footer-logo {
       text-align: center;
     }
     .footer-address {
       margin-bottom: 60px;
     }
     .footer-subscribe {
+      padding-top: 65px;
       margin-bottom: 60px;
     }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .form-input {
-      width: 100%;
+    .footer-subtitle {
+      margin-bottom: 20px;
     }
   }
   
+   
   @media screen and (max-width: 1199px) and (min-width: 768px) {
-    .footer-content {
+    .footer-logo {
       flex-basis: 50%;
     }
-    .follow-us {
+    .footer-subtitle-subtitle {
       display: flex;
       flex-basis: 100%;
       flex-direction: column;
@@ -134,39 +139,33 @@ border: $aksent-color;
       flex-direction: column;
       align-items: center;
     }
-    .form-input {
+    .form-form-field {
       width: 450px;
     }
-  }
-  
-  @media screen and (max-width: 1199px) {
-    .form-input {
+    .form-form-field {
       margin-bottom: 20px;
     }
   }
   
   @media screen and (min-width: 1200px) {
-    .follow-us {
+    .footer-subtitle-subtitle {
       flex-basis: 50%;
     }
-  
-    .footer-content {
+      .footer-logo {
       flex-basis: 25%;
       margin-right: 30px;
     }
-  
-    .subscribe {
+      .footer-subscribe {
       flex-basis: 25%;
       margin-right: 30px;
     }
-    .button-follow-us {
+    .footer-button {
       display: flex;
     }
     .footer-form {
       display: flex;
     }
-  
-    .form-input {
+     .form-form-field {
       margin-right: 12px;
     }
   }
